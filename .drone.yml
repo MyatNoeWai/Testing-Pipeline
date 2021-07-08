@@ -3,6 +3,6 @@ type: docker
 name: default
 
 steps:
-- name: build
+- name: testing_pipeline
   pull: never
   image: golang:1.12
